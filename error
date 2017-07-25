@@ -1,0 +1,32 @@
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+chamber.o: In function `Chamber::~Chamber()':
+/u9/as4shah/cs246/1175/a5/cc3k2/chamber.cc:37: undefined reference to `Cell::~Cell()'
+character.o: In function `Character::Character(Grid*, int, int, int, char, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+/u9/as4shah/cs246/1175/a5/cc3k2/character.cc:12: undefined reference to `Character::hitMerchant'
+character.o: In function `Character::hostile()':
+/u9/as4shah/cs246/1175/a5/cc3k2/character.cc:17: undefined reference to `Character::hitMerchant'
+character.o: In function `Character::setHostile()':
+/u9/as4shah/cs246/1175/a5/cc3k2/character.cc:24: undefined reference to `Character::hitMerchant'
+dragonhoard.o: In function `DragonGold::DragonGold(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool)':
+/u9/as4shah/cs246/1175/a5/cc3k2/dragonhoard.cc:5: undefined reference to `vtable for DragonGold'
+dwarf.o: In function `Dwarf::~Dwarf()':
+/u9/as4shah/cs246/1175/a5/cc3k2/dwarf.h:7: undefined reference to `Enemy::~Enemy()'
+elf.o: In function `Elf::~Elf()':
+/u9/as4shah/cs246/1175/a5/cc3k2/elf.h:7: undefined reference to `Enemy::~Enemy()'
+enemy.o:(.rodata._ZTV5Enemy[_ZTV5Enemy]+0x80): undefined reference to `Enemy::~Enemy()'
+enemy.o:(.rodata._ZTV5Enemy[_ZTV5Enemy]+0x88): undefined reference to `Enemy::~Enemy()'
+grid.o: In function `Grid::resetGrid()':
+/u9/as4shah/cs246/1175/a5/cc3k2/grid.cc:97: undefined reference to `Cell::~Cell()'
+grid.o: In function `Grid::~Grid()':
+/u9/as4shah/cs246/1175/a5/cc3k2/grid.cc:122: undefined reference to `Cell::~Cell()'
+halfing.o: In function `Halfling::~Halfling()':
+/u9/as4shah/cs246/1175/a5/cc3k2/halfing.h:5: undefined reference to `Enemy::~Enemy()'
+human.o: In function `Human::~Human()':
+/u9/as4shah/cs246/1175/a5/cc3k2/human.h:8: undefined reference to `Enemy::~Enemy()'
+merchant.o: In function `Merchant::~Merchant()':
+/u9/as4shah/cs246/1175/a5/cc3k2/merchant.h:7: undefined reference to `Enemy::~Enemy()'
+orc.o: In function `Orc::~Orc()':
+/u9/as4shah/cs246/1175/a5/cc3k2/orc.h:7: undefined reference to `Enemy::~Enemy()'
+collect2: error: ld returned 1 exit status
+make: *** [XEC] Error 1
